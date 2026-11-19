@@ -1,0 +1,10 @@
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+~$*
+.env
+*.pem
+credentials.json
+.venv/
+node_modules/
