@@ -18,6 +18,7 @@
 3. [architecture/](architecture/) — ArchiMate + BPMN (шлюз HUMAN_DECISION)  
 4. [strategy/BOUNDARIES.md](strategy/BOUNDARIES.md) — что не делаем  
 5. [TASKS.md](TASKS.md) — очередь для ИИ-проверяющего  
+6. [TEAM-GLOSSARY.md](TEAM-GLOSSARY.md) — язык команды (канон, витрина, кухня…)  
 
 ## Полки
 
@@ -25,6 +26,7 @@
 strategy/       гранты, one-pager, границы, stakeholders
 architecture/   ArchiMate, BPMN
 01…12 + adr/    системная документация (публичный срез)
+TEAM-GLOSSARY   язык команды (ops) ≠ 12-GLOSSARY (продукт)
 TASKS.md        очередь Cursor ↔ qBB
 ROLES.md        человек / Cursor / проверяющий ИИ
 ```

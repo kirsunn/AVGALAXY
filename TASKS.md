@@ -1,18 +1,16 @@
-# Очередь задач (Cursor пишет → проверяющий ИИ читает)
+# Очередь задач
 
-Чтобы человек не был почтальоном: **задачи живут здесь**.  
-Cursor обновляет после push. Проверяющий ИИ (qBB): `git pull` public `AVGALAXY` → смотри этот файл.
+Протокол: Drive [OPS](https://docs.google.com/document/d/1vo_j3lvB5zVFPb-69EjT6XtytlO7EUPKIRUyJGdaBwE/edit)  
+Доска: [AVGALAXY-AI-TASKS](https://docs.google.com/document/d/1vup-cwHswl8ItyqSeFFpO86wrtF4A8Q8NGYz1qHnR2s/edit)  
+Дневные срезы: [daily-context/](https://drive.google.com/drive/folders/1XKY4WmaGYKPbvYW6yap2Yj8FaIUJ_Anu)  
+Ответы ИИ: [AI-replies/](https://drive.google.com/drive/folders/1Fh_QqXFIuSv80R12vMSzkrOSWmvx5vzU)
 
-## Сейчас (активно)
+Cursor = ПК+git+Drive. qBB = git+Drive. HDD/пути в чат не тащим.
 
-| ID | Задача | Статус | Для кого |
-|---|---|---|---|
-| T-G0a | Правки витрины по ревью (ArchiMate/BPMN/one-pager/90д) | **done Cursor** | — |
-| T-G0b | Ревью: витрина понятна спонсору за 30 сек? | **todo qBB** | проверяющий |
-| T-G1 | Human approve decision-v1 | **ждёт человека** | человек |
-| T-G1b | Жилой IFC ↔ identity | backlog | Cursor после T-G1 |
+## Сейчас
 
-## Правило
-
-Новую задачу для qBB Cursor добавляет строкой `todo qBB`.  
-qBB в ответе: `T-xxx: OK / правки` ≤15 строк, без эссе.
+| ID | Задача | Статус |
+|---|---|---|
+| T-G0b-x | qBB проверяет Cursor-check | todo qBB |
+| T-G1 | Human approve decision-v1 | ждёт человека |
+| T-G1b | Жилой IFC ↔ identity | backlog |
