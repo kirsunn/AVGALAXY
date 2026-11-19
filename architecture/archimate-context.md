@@ -1,13 +1,18 @@
-# ArchiMate — контекст AVGALAXY (v0)
+# ArchiMate — контекст AVGALAXY (v0.1)
 
-Слои упрощённо (для витрины; не полный Tobit).
+Слои упрощённо (витрина; не полный Tobit).
+
+**Метрика успеха (одна):** площадь по норме проверена **без ручного пересчёта** — след: snapshot + criterion + finding + human decision.
 
 ```mermaid
 flowchart TB
-  subgraph stakeholders [Business_Actors]
+  subgraph actors [Business_Actors]
+    Sponsor[Sponsor_or_Customer]
     Human[Human_decision_maker]
-    Grant[Grant_sponsor]
     BIMSpec[BIM_specialist]
+  end
+  subgraph value [Value]
+    Report[Risk_and_compliance_report]
   end
   subgraph app [Application]
     Pilot[area_check_pilot]
@@ -20,9 +25,10 @@ flowchart TB
     Finding[Finding]
     Decision[Decision]
   end
-  Human --> Decision
+  Sponsor -->|"получает"| Report
+  Report --> Decision
+  Human -->|"единственный approve/reject"| Decision
   BIMSpec --> Pilot
-  Grant --> Pilot
   Pilot --> Snapshot
   Pilot --> Criterion
   Pilot --> Finding
@@ -31,4 +37,5 @@ flowchart TB
   NormEng --> Criterion
 ```
 
-**Принцип:** finding без human decision не «закрыт». Geometry_basis явен (не вид экрана).
+**Читается за 30 сек:** пользователь/специалист гоняет пилот → finding → **человек решает** → спонсор получает отчёт о соответствии/риске.  
+Finding без human decision не «закрыт». `geometry_basis` явен (не вид экрана).

@@ -7,21 +7,28 @@
 Техническая кухня (пилоты, schemas, сырьё BRAIM) — в **приватном** репозитории  
 [`AVGALAXY-VIP`](https://github.com/kirsunn/AVGALAXY-VIP) (доступ по запросу).
 
+## Для спонсора (1 строка)
+
+Проверяемый контур соответствия площадей/норм в BIM — меньше скрытого риска и ручного пересчёта, явный след «кто решил».
+
 ## С чего начать
 
 1. [strategy/ONE-PAGER.md](strategy/ONE-PAGER.md)  
-2. [strategy/GRANTS-ROADMAP.md](strategy/GRANTS-ROADMAP.md)  
-3. [architecture/](architecture/) — ArchiMate + BPMN 2.0  
-4. [01-VISION.md](01-VISION.md) … [12-GLOSSARY.md](12-GLOSSARY.md) + [adr/](adr/)
+2. [strategy/GRANTS-ROADMAP.md](strategy/GRANTS-ROADMAP.md) — в т.ч. **90 дней**  
+3. [architecture/](architecture/) — ArchiMate + BPMN (шлюз HUMAN_DECISION)  
+4. [strategy/BOUNDARIES.md](strategy/BOUNDARIES.md) — что не делаем  
+5. [TASKS.md](TASKS.md) — очередь для ИИ-проверяющего  
 
 ## Полки
 
 ```text
-strategy/       гранты, one-pager, stakeholders
+strategy/       гранты, one-pager, границы, stakeholders
 architecture/   ArchiMate, BPMN
 01…12 + adr/    системная документация (публичный срез)
-ROLES.md        человек / Cursor / qBB
+TASKS.md        очередь Cursor ↔ qBB
+ROLES.md        человек / Cursor / проверяющий ИИ
 ```
+
 
 ## Принципы
 

@@ -5,11 +5,13 @@
 | **AVGALAXY** (этот, public) | Витрина: гранты, ArchiMate/BPMN, публичные docs |
 | **AVGALAXY-VIP** (private) | Кухня: library, pilots, schemas, session-notes |
 
-> Cursor делает → qBB проверяет → человек решает.
+> Cursor делает → проверяющий ИИ (qBB) читает git → человек решает.
+
+**Почтальон не нужен:** задания для проверяющего — в [TASKS.md](TASKS.md). Человек только OK/decision.
 
 | Кто | AVGALAXY | AVGALAXY-VIP |
 |---|---|---|
-| **Человек** | OK витрины, гранты | OK decision пилота |
-| **Cursor** | правки витрины | техника, XLSX, git private |
-| **qBB** | ревью one-pager / ArchiMate / BPMN | ревью mapping / pilot / D01–D13 |
+| **Человек** | OK витрины, гранты, «кто платит» | OK decision пилота |
+| **Cursor** | правки витрины + пишет TASKS | техника, XLSX |
+| **Проверяющий ИИ** | pull + TASKS + ревью | mapping / pilot / D01–D13 |
 | **Drive** | только канал | только канал |
