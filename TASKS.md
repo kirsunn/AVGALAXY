@@ -5,12 +5,31 @@
 Дневные срезы: [daily-context/](https://drive.google.com/drive/folders/1XKY4WmaGYKPbvYW6yap2Yj8FaIUJ_Anu)  
 Ответы ИИ: [AI-replies/](https://drive.google.com/drive/folders/1Fh_QqXFIuSv80R12vMSzkrOSWmvx5vzU)
 
-Cursor = ПК+git+Drive. qBB = git+Drive. HDD/пути в чат не тащим.
+Cursor = ПК+git+Drive. qBB = git+Drive.  
+Человек: `OK` / `стоп` / `следующее: …` / `approve decision`.
 
-## Сейчас
+## NOW
 
 | ID | Задача | Статус |
 |---|---|---|
-| T-G0b-x | qBB проверяет Cursor-check | todo qBB |
-| T-G1 | Human approve decision-v1 | ждёт человека |
-| T-G1b | Жилой IFC ↔ identity | backlog |
+| T-G1b | Жилой IFC ↔ identity (не Hello Wall) | **todo Cursor** |
+
+## NEXT
+
+| ID | Задача | Статус |
+|---|---|---|
+| T-G1c | Замер: ручной пересчёт vs контур (минуты) | backlog |
+| T-G1d | qBB ревью артефактов G1 → AI-replies | backlog |
+
+## DONE
+
+| ID | Задача | Статус |
+|---|---|---|
+| T-G0a / T-G0b | G0 витрина + ревью | done `c3a9e1d` |
+| T-G1 | Human approve decision-v1 | **done** `approved` 2026-11-19 |
+
+## LATER (без явного «делай»)
+
+- Creator-REF / термины Creator
+- G2/G3 грант-пакет
+- Расширение норм за кухню-нишу

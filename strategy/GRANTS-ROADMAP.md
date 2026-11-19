@@ -21,7 +21,7 @@
 
 ## G1 — Доказательство метода
 
-- [ ] Human-approved `decision-v1` (VIP)
+- [x] Human-approved `decision-v1` (VIP) — 2026-11-19
 - [ ] 1 жилой IFC (не Hello Wall) ↔ identity
 - [ ] Замер: ручной пересчёт vs контур (минуты)
 
